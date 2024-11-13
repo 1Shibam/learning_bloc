@@ -22,9 +22,19 @@ class HomeLoadingSuccessState extends HomeState {
 // if some error occured in loadin the state
 class HomeLoadingFailed extends HomeState {}
 
+//product is out of stock state can not add to the cart
+class HomeProductAddedtoCartFailed extends HomeState {}
+//state when item is out of stock
+
 //navigating to wishlist page
 
 class HomeNavigateToWishlistPageAction extends HomeActionState {}
 
 //navigating to cart page
 class HomeNavigateToCartPageAction extends HomeActionState {}
+
+//item added to the wish list action state
+class HomeProductAddedtoCartActionState extends HomeActionState {}
+
+//item added to the cart action state
+class HomeProductAddedtowishListActionState extends HomeActionState {}
